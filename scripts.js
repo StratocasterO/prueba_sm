@@ -74,10 +74,9 @@ const confirm = _ => {
         document.querySelectorAll('.form input')[0].style.color = "red"
         document.querySelectorAll('.form input')[1].style.color = "red"
     }
-
 }
 
 const confirmBuy = _ => {
     // sends POST request to the server
-    console.log("petition sent to the server");
+    console.log("request sent to the server");
 }

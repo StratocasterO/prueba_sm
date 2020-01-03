@@ -18,13 +18,14 @@ main{
     justify-content: space-around;
     max-width: 1024px;
     margin: auto;
+    padding: 16px 0;
 }
 .card{
     display: block;
-    width: 200px;
+    width: 220px;
     text-align: center;
     position: relative;
-    margin: 24px 8px;
+    margin: 16px 8px;
 }
 .card img{
     width: 100%;
