@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/cropped-img_favicon-32x32.png" type="image/png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Prueba SlashMobility</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/img_logo_slashmobility_white.png" alt="SlashMobility logo">
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <p>Omar Olmedo © SlashMobility 2018</p>
+    </footer>
+
+    <div id="black_overlay">
+        <div id="lightbox">
+            Do you wanna buy it?
+            <form class="form" action="send">
+                <input type="text" name="name" id="name" placeholder="Username">
+                <input type="password" name="pass" id="pass" placeholder="Password">
+            </form>
+            <div class="buttons">
+                <div class="cancel" onclick="cancel()">CANCEL</div>
+                <div class="confirm" onclick="confirm()">CONFIRM</div>
+            </div>
+        </div>
+
+        <div id="lightbox2">
+            Confirm your payment info:
+            <form class="form" action="send">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="text" name="pass" id="pass" placeholder="Number">
+                <input type="text" name="date" id="date" placeholder="Expiring date">
+                <input type="text" name="ccv" id="ccv" placeholder="Security code (CCV)">
+            </form>
+            <div class="buttons">
+                <div class="cancel" onclick="cancel()">CANCEL</div>
+                <div class="confirm" onclick="confirmBuy()">CONFIRM</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
